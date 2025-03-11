@@ -1,8 +1,9 @@
-package labsheet02;
+package lab2;
 
-public class mainApp {
+
+public class mainApp1 {
 	public static void main(String[]args) {
-		queue q1 = new queue(5);
+		queue1 q1 = new queue1(5);
 		
 		System.out.println("inserting values to the queue");
 		q1.insert(10);

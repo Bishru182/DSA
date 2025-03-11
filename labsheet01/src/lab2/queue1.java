@@ -1,13 +1,13 @@
-package labsheet02;
+package lab2;
 
-public class queue {
+public class queue1 {
 	private int maxSize;
 	private int front;
 	private int rear;
 	private int array[];
 	private int nItems;
 	
-	public queue(int s) {
+	public queue1(int s) {
 		maxSize=s;
 		front=0;
 		rear=-1;
@@ -47,5 +47,6 @@ public class queue {
 			System.out.println(array[j]);
 		}
 	}
+
 
 }
