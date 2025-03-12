@@ -20,7 +20,7 @@ public class QueueX {
 			System.out.println("queue is full");
 		}else {
 			queueArr[++rear]=j;
-			System.out.println(queueArr[rear]);
+			//System.out.println(queueArr[rear]);
 		}
 	}
 	
@@ -45,6 +45,12 @@ public class QueueX {
 			return true;
 		}else {
 			return false;
+		}
+	}
+	
+	public void display() {
+		for(int j=0;j<5;j++) {
+			System.out.println(queueArr[j]);
 		}
 	}
 

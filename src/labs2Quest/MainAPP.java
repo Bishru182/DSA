@@ -1,14 +1,18 @@
 package labs2Quest;
+import java.util.Scanner;
 
 public class MainAPP {
 	public static void main(String[]args) {
+		Scanner scanner = new Scanner (System.in);
 		QueueX q1 = new QueueX(5);
-		q1.insert(10);
-		q1.insert(20);
-		q1.insert(30);
-		q1.insert(40);
-		q1.insert(50);
-		q1.insert(60);
+		
+		for(int i=0;i<5;i++) {
+			System.out.println("enter transaction ID "+(i+1));
+			int val = scanner.nextInt();
+			q1.insert(val);
+		}
+		System.out.println("");
+		q1.display();
 		
 		
 	}
