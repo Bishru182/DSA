@@ -53,5 +53,31 @@ public class QueueX {
 			System.out.println(queueArr[j]);
 		}
 	}
+	
+	public int Even() {
+		for (int a=0;a<5;a++) {
+			if(queueArr[a]%2==0) {
+				return queueArr[a];
+				
+			}else {
+				return -99;
+				
+			}
+		}
+		return -99;
+	}
+	
+	public int Odd() {
+		for (int e=0;e<5;e++) {
+			if(queueArr[e]%2==1) {
+				return queueArr[e];
+				
+			}else {
+				return -99;
+				
+			}
+		}
+		return -99;
+	}
 
 }
