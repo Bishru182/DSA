@@ -67,7 +67,10 @@ public class queue {
 	
 	public void displayReverse() {
 		for(int k=this.maxSize-1;k>=0;k--) {
-			System.out.print(array[k]);
+			System.out.print(array[k]);/*lets say you have 5 letters, then the maxSize is 5
+			                              instead of 'int k=this.maxSize-1', if u use 'int k=this.maxSize',array[k]
+			                              will be array[5]. but there's no array with an index of 5...finishes with 
+			                              index 4*/
 		}
 	}
 
