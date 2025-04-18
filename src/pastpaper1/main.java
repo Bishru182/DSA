@@ -27,6 +27,8 @@ public class main {
 			q1.insert(st1.pop());
 		}
 		
+        System.out.println();
+		
 		System.out.println("after");
 		q1.display();
 	}
